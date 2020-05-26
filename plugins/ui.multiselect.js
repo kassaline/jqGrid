@@ -48,7 +48,7 @@
 						require("jquery") :
 						require("jquery")(root || window);
 			}
-			require("jquery-ui/sortable");
+			require("jquery-ui/ui/widgets/sortable");
 			factory($);
 			return $;
 		};
